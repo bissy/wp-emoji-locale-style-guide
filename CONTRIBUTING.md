@@ -24,13 +24,13 @@ Include:
 
 These come from the official glossary and shouldn't be changed here:
 
-- `tag` is `🏷` — U+1F3F7 with **no** variation selector
+- `tag` is `🏷`: U+1F3F7 with **no** variation selector
 - `file` is `📁` (folder), not `📄`
 - `key` is `⌨️` only in a keyboard context, otherwise `🔑`
 
 ## Things that must never be translated
 
-- Date format strings (`F j, Y`) — emoji-fying these breaks date output
+- Date format strings (`F j, Y`). Emoji-fying these breaks date output
 - Placeholders (`%s`, `%1$s`, `%link%`)
 - HTML tags and code identifiers (`href`, `rel`, `target`)
 - Trailing spaces in the source string
