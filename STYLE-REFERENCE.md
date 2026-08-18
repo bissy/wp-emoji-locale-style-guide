@@ -1,10 +1,10 @@
-# art-xemoji (Emoji locale) — Working Style Reference
+# art-xemoji (Emoji locale): Working Style Reference
 
 A draft shared reference for the WordPress Emoji locale, reverse-engineered from the
 official glossary and existing translations.
 
 - Drafted by: bissy (Tarosky), 2026-08-18
-- Status: **draft for review** — please correct anything that doesn't match your conventions
+- Status: **draft for review**. Please correct anything that doesn't match your conventions
 - Sources: official glossary + the `art-xemoji` translation of Captain Feed for YouTube
 
 ---
@@ -17,12 +17,12 @@ When two sources conflict, prefer the higher one.
 |---|---|
 | 1 | [Official glossary](https://translate.wordpress.org/locale/art-xemoji/default/glossary/) (27 entries) |
 | 2 | Existing coherent translations (e.g. Captain Feed for YouTube) |
-| 3 | This document's additions — rationale noted for each |
+| 3 | This document's additions (rationale noted for each) |
 | — | ❌ The older "grammar-encoding" core translations (see §6) |
 
 Context: `art-xemoji` is an experimental/testing locale. GTEs are assigned but the locale is
 effectively unmaintained (most glossary entries date from 2016). Since there's no strict
-authority, **what we establish becomes the de facto standard** — which is why a shared
+authority, **what we establish becomes the de facto standard**, which is why a shared
 reference seems worth writing down.
 
 ---
@@ -56,14 +56,14 @@ Transcribed as-is, with parts of speech and comments.
 | profile | noun | 📝😀 | **official precedent for compound emoji** |
 | result | noun | 🎯 | |
 | search | noun | 🔎 | |
-| tag | noun | 🏷 | **no variation selector** — U+1F3F7 alone, not `🏷️` |
+| tag | noun | 🏷 | **no variation selector**: U+1F3F7 alone, not `🏷️` |
 | theme | noun | 🎨 | |
 | to | preposition | ➡️ | in the sense of "do x to cause y" |
 | up | adverb | ⬆️ | |
 
 ### Emoji with more than one assigned meaning
 
-Worth being aware of — these need disambiguation by context.
+Worth being aware of, since these need disambiguation by context.
 
 | Emoji | Assigned to |
 |---|---|
@@ -71,7 +71,7 @@ Worth being aware of — these need disambiguation by context.
 | 🎯 | here (adv) / result (noun) |
 | 📧 | email / mail |
 | ⌨️ | key (keyboard context) / keyboard |
-| ✅ | enter (form submission) — and, in §3, also select/selected |
+| ✅ | enter (form submission), and in §3 also select/selected |
 
 ---
 
@@ -121,7 +121,7 @@ No sentence-ending period. `,` `( )` `—` `/` `:` are used.
 - Placeholders: `%s` `%1$s` `%link%` `%rel%`
 - Code and function names inside `<code>`
 - HTML attribute names / code identifiers: `href` `rel` `target`
-- **Trailing spaces in the source string** (`e.g. ` → `👉 `) — these matter because the UI
+- **Trailing spaces in the source string** (`e.g. ` → `👉 `). These matter because the UI
   concatenates the next element
 
 ---
@@ -145,7 +145,7 @@ Rationale noted. All open to correction.
 | attribute | 🔖 | |
 | anchor element | ⚓ | kept distinct from 🔗 (link in general) |
 | widget | 🧩 | |
-| block / Gutenberg | 🧩 | from Captain Feed. Collides with widget — context-dependent |
+| block / Gutenberg | 🧩 | from Captain Feed. Collides with widget, so context-dependent |
 | archive | 🗄️ | |
 | editor | ✏️ | same as edit |
 | repository | 📦🏬 | |
@@ -162,13 +162,13 @@ Rationale noted. All open to correction.
 | click | 🖱️👆 | from Captain Feed |
 | use | 🔧 | |
 | override / update / change | 🔄 | |
-| generate | 🏭 | ⚠️ no precedent found — my own guess |
+| generate | 🏭 | ⚠️ no precedent found, my own guess |
 | save | 💾 | |
 | upload | 📤 | |
 | delete / remove | 🗑️ | |
 | new | 🆕 | |
 | separate | ✂️ | |
-| constant (PHP) | 🔒 | ⚠️ no precedent found — my own guess |
+| constant (PHP) | 🔒 | ⚠️ no precedent found, my own guess |
 | release | 🚀 | **First release → `🚀🆕🌍`** (your convention, adopted) |
 | fix | 🛠️🪛 | changelog convention |
 | improvement | 📈 | changelog convention |
@@ -204,7 +204,7 @@ An excellent existing system in core. Worth completing.
 
 ## 4. URL localization
 
-Only swap when a locale version actually exists — otherwise you create a dead link.
+Only swap when a locale version actually exists, otherwise you create a dead link.
 
 | Swap | Don't swap |
 |---|---|
@@ -270,23 +270,23 @@ Breakdown of the untranslated pool:
 | 🥈 | 1–3 word UI labels | ~3,745 | where emoji works best |
 | 🥉 | 4–8 word phrases | ~1,668 | possible, needs care |
 | ⚠️ | Contains `%s` / HTML | ~1,313 | placeholder integrity is critical |
-| ❌ | **9+ words** | ~1,583 | **suggest leaving alone** — every unreadable example in §6 is from here |
+| ❌ | **9+ words** | ~1,583 | **suggest leaving alone**, since every unreadable example in §6 is from here |
 
 ### Systematic clusters worth targeting
 - Language names → flags (finish the existing system)
-- Weekdays and months (`Monday → ☀️1️⃣` exists but the system is incomplete — needs a design)
+- Weekdays and months (`Monday → ☀️1️⃣` exists but the system is incomplete, so it needs a design)
 - Percentages (`100% → 💯` exists; `25%` `50%` `75%` could follow)
 
 ---
 
-## 8. Open questions — would love your input
+## 8. Open questions (would love your input)
 
 These are conventions I couldn't derive from the glossary or existing translations, so I
 guessed. Corrections very welcome.
 
 | # | Question | My current guess |
 |---|---|---|
-| 1 | **What does trailing `❗` mean?** I saw `❓🔌 🧩❗` (Does plugin work with blocks?) in your translation but couldn't work out whether it marks "can/does", or is just emphasis | not used |
+| 1 | **What does trailing `❗` mean?** I saw `❓🔌 🧩❗` (Does plugin work with blocks?) but couldn't work out whether it marks "can/does", or is just emphasis | not used |
 | 2 | Is `⏰` acceptable for "when" / "if"? | using it |
 | 3 | Is `〰️` acceptable for "and so on / etc."? | using it |
 | 4 | Is `🏭` acceptable for "generate"? | using it |
