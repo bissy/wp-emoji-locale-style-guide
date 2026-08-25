@@ -196,9 +196,43 @@ Rationale noted. All open to correction.
 | External Permalink (as a product name) | left in Latin | it's the plugin's display name in settings/editor headings |
 
 ### Language names → flags
-An excellent existing system in core. Worth completing.
+An excellent existing system in core: one language, one country flag. Worth completing.
 
-`Japanese → 🇯🇵` · `Italian → 🇮🇹` · `Ukrainian → 🇺🇦` · `Spanish → 🇪🇸` …
+Already in core (35): `Japanese → 🇯🇵` · `Italian → 🇮🇹` · `Ukrainian → 🇺🇦` · `Spanish → 🇪🇸` …
+
+Added (14):
+
+| Language | Flag | Note |
+|---|---|---|
+| Afrikaans | 🇿🇦 | |
+| Arabic | 🇸🇦 | spoken across many states; Saudi Arabia is the conventional choice |
+| Catalan | 🇦🇩 | Catalonia has no flag emoji and 🇪🇸 is taken by Spanish. Andorra is the one state where Catalan is the sole official language |
+| English | 🇬🇧 | chosen over 🇺🇸 so it sits alongside Welsh 🏴󠁧󠁢󠁷󠁬󠁳󠁿 |
+| Filipino | 🇵🇭 | |
+| Finnish | 🇫🇮 | |
+| Hebrew | 🇮🇱 | |
+| Hindi | 🇮🇳 | |
+| Indonesian | 🇮🇩 | |
+| Korean | 🇰🇷 | |
+| Malay | 🇲🇾 | |
+| Persian | 🇮🇷 | |
+| Swahili | 🇹🇿 | Tanzania, where Kiswahili is the national language |
+| Welsh | 🏴󠁧󠁢󠁷󠁬󠁳󠁿 | subdivision flags exist in RGI for England, Scotland and Wales only |
+
+No flag is used twice.
+
+#### Deferred: languages without a usable flag
+
+Three languages don't fit the one-language-one-flag system. They are **intentionally left
+untranslated** rather than forced into a bad match:
+
+| Language | Why |
+|---|---|
+| Galician | A regional language of Spain. Galicia has no flag emoji and 🇪🇸 is taken by Spanish. 🇵🇹 would be linguistically arguable but politically contested, and is taken by Portuguese |
+| Tagalog | 🇵🇭 is assigned to Filipino, which is standardised Tagalog. Same state, so any flag would duplicate |
+| Yiddish | A diaspora language, not tied to a state. 🇮🇱 is taken by Hebrew, and a religious symbol (✡️) would be inconsistent with how every other language is handled |
+
+See open question 9 below.
 
 ---
 
@@ -259,21 +293,31 @@ These might be worth fixing before adding new strings.
 
 ---
 
-## 7. Suggested approach for core (7,846 untranslated)
+## 7. Suggested approach for core
 
-Breakdown of the untranslated pool:
+Core is at **4.3%** (346 / 8,109) as of 2026-08-19, up from 3.2%.
+The batches completed so far are all in the mechanical, low-risk categories:
+
+| Batch | Category | Count |
+|---|---|---|
+| 1 | Date and time format strings (copied verbatim, including 4 with non-breaking spaces) | 20 |
+| 2 | URLs (32 verbatim, 1 localized to `emoji.wordpress.org`) | 33 |
+| 3 | Strings that break things if translated (HTML entities, numeric config values, tag delimiter, search stopwords, font preview string) | 16 |
+| 4 | Language names → flags | 14 |
+
+Remaining breakdown:
 
 | Priority | Category | Count | Approach |
 |---|---|---|---|
-| 🥇 | Date format strings | ~101 | copy verbatim. Low risk, high value |
-| 🥇 | URLs | ~33 | see §4 |
+| ✅ | Date format strings | 20 | done: copied verbatim |
+| ✅ | URLs | 33 | done: see §4 |
 | 🥈 | 1–3 word UI labels | ~3,745 | where emoji works best |
 | 🥉 | 4–8 word phrases | ~1,668 | possible, needs care |
 | ⚠️ | Contains `%s` / HTML | ~1,313 | placeholder integrity is critical |
 | ❌ | **9+ words** | ~1,583 | **suggest leaving alone**, since every unreadable example in §6 is from here |
 
 ### Systematic clusters worth targeting
-- Language names → flags (finish the existing system)
+- Language names → flags (done for all but three; see §3)
 - Weekdays and months (`Monday → ☀️1️⃣` exists but the system is incomplete, so it needs a design)
 - Percentages (`100% → 💯` exists; `25%` `50%` `75%` could follow)
 
@@ -293,4 +337,5 @@ guessed. Corrections very welcome.
 | 5 | Is `🔒` acceptable for "constant"? | using it |
 | 6 | **How should weekdays and months be systematised?** The existing core attempt (`Monday → ☀️1️⃣`, `January → ❄️1️⃣`, but `July → 🗓️🗓️7️⃣`) is inconsistent and incomplete | undecided |
 | 7 | Are plugin names emoji-fied, or left in Latin? I followed `👨‍✈️📡📺` and did `🍠🌍🔗` | emoji-fied |
+| 9 | **How should languages without a state be handled?** Galician, Tagalog and Yiddish have no usable flag (see §3). Options: leave untranslated, allow a flag to be shared, or use a non-flag emoji | left untranslated |
 | 8 | Should we fix the defects in §6 before adding new strings, or leave them? | undecided |
