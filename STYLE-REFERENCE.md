@@ -154,11 +154,14 @@ Rationale noted. All open to correction.
 ### Actions and states
 | Term | Emoji | Note |
 |---|---|---|
-| select / selected | ✅ | collides with `enter` in the glossary |
+| select / selected | ✅ | collides with `enter` in the glossary. **Not** extended to active/enable, which would have made it a third meaning |
 | manual | ✋ | |
 | automatic | 🤖 | |
 | install | 📥 | |
-| activate | ⚡ | activate plugin = `⚡🔌` |
+| activate / enable / active / On | 🟢 | verb and state are not distinguished, in line with §2-1. Continues the intent of core's earlier `on → 🟢🟢` |
+| deactivate / disable / inactive / Off / disabled | 🔴 | paired with 🟢, so the opposition is self-evident |
+| activate a plugin | ⚡🔌 | kept as a compound; ⚡ is not used for `activate` on its own |
+| done / complete | ✔️ | core already used this. Kept distinct from 🟢: ✔️ is "finished", 🟢 is "switched on". Core had `Activate %s → ✔ %s`, which was changed to `🟢 %s` for consistency |
 | click | 🖱️👆 | from Captain Feed |
 | use | 🔧 | |
 | override / update / change | 🔄 | |
@@ -260,6 +263,10 @@ Particularly important for core.
 | `html_lang_attribute` | `art-xemoji` | |
 | `ltr` | `ltr` | |
 | Font specs (`Noto Serif:400,...`) | copy verbatim | |
+| **`on` / `off` config literals** | **copy verbatim** | Lowercase `on`/`off` with a msgctxt like `Comment number declension: on or off` are values WordPress compares in code, not display text. Core previously had `🟢🟢` / `🔴🔴` here, which was a functional bug. The capitalised display strings `On` / `Off` are separate entries and *do* get translated |
+| `html_lang_attribute` | `art-xemoji` | |
+| `words` (Word count type) | `words` | emoji are word-separated, so `words` is correct |
+| Keycap digits | `DIGIT` + `U+FE0F` + `U+20E3` | core had four month names with the sequence reversed (`U+20E3` before `U+FE0F`), which renders inconsistently |
 
 ---
 
