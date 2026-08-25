@@ -231,5 +231,10 @@ Delete "%s"?   → 🗑️❓Delete \"%s\"?
 4. Fix and approve §4 and §6
 5. Only then look at the long-sentence strings
 
-Happy to do the mechanical work once we've agreed on the calls. I'd rather not bulk-reject
-another contributor's suggestions on my own judgement a day after getting PTE.
+I'm happy to do all of the mechanical work: the bulk rejections, the fixes, the approvals,
+and re-doing the already-approved date strings if we change the scheme. Just say which way
+you want each call to go and I'll run it.
+
+The only reason I haven't already is that bulk-rejecting another contributor's suggestions on
+my own judgement, a day after getting PTE, felt like the wrong way to start. If you'd rather
+I just use my judgement and get on with it, that works too.
