@@ -22,6 +22,7 @@ This repo is an attempt to write the conventions down so contributors can stay c
 | File | Description |
 |---|---|
 | [STYLE-REFERENCE.md](STYLE-REFERENCE.md) | Glossary, conventions, vocabulary additions, and open questions |
+| [WAITING-REVIEW.md](WAITING-REVIEW.md) | A read-through of the 304 pending suggestions on core, with the calls that need agreeing |
 
 ## Status
 
