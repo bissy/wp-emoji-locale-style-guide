@@ -434,6 +434,21 @@ Remaining breakdown:
 | ⚠️ | Contains `%s` / HTML | ~1,313 | placeholder integrity is critical |
 | ❌ | **9+ words** | ~1,583 | **suggest leaving alone**, since every unreadable example in §6 is from here |
 
+### Review priority
+
+With most of core still untranslated, effort should go where it changes what users see.
+When reviewing suggestions or existing translations, sort issues into three tiers:
+
+| Tier | What | Examples | Action |
+|---|---|---|---|
+| 1. Fix now | Breaks output or misleads the reader | missing or altered placeholders (`%s`, `###DEBUG###`), another language mixed in (`Previous → Anterior`), English copied verbatim, a meaning unrelated to the source (`Tall - 9:16 → 🚹`) | reject, or fix before approving |
+| 2. Align early | Contradicts the glossary or §3 | `Video → 🎞` (glossary: 🎬), `URL → 🔗` (glossary: 🌐), plural doubling (§2-9) | fix when touched; the longer these stay, the more strings repeat them |
+| 3. Leave for later | Equivalent wording that already reads correctly | `⌛️` vs `⏳`, a different but understandable compound | approve as-is; don't spend review time swapping one valid choice for another |
+
+Tier 1 is not a matter of taste. A missing placeholder silently drops content: the fatal
+error email, for instance, loses its WordPress, theme, plugin and PHP version lines if
+`###DEBUG###` is gone, because core fills them in with `str_replace`.
+
 ### Systematic clusters worth targeting
 - Language names → flags (done for all but three; see §3)
 - Weekdays and months (done, see §3)
@@ -456,4 +471,4 @@ guessed. Corrections very welcome.
 | 6 | ~~How should weekdays and months be systematised?~~ **Settled.** Planetary weekdays and season+number months, see §3 | resolved |
 | 7 | Are plugin names emoji-fied, or left in Latin? I followed `👨‍✈️📡📺` and did `🍠🌍🔗` | emoji-fied |
 | 9 | **How should languages without a state be handled?** Galician, Tagalog and Yiddish have no usable flag (see §3). Options: leave untranslated, allow a flag to be shared, or use a non-flag emoji | left untranslated |
-| 8 | Should we fix the defects in §6 before adding new strings, or leave them? | undecided |
+| 8 | Should we fix the defects in §6 before adding new strings, or leave them? | proposed: tier 1 and 2 defects first, tier 3 later (see §7, Review priority) |
