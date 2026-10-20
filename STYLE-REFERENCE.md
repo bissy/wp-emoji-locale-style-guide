@@ -193,6 +193,8 @@ Rationale noted. All open to correction.
 | editor | ✏️ | same as edit |
 | repository | 📦🏬 | |
 | developer | 👨‍💻 | ZWJ sequence; may split on some platforms |
+| aspect ratio | shape + keycap ratio | `↔️ 1️⃣6️⃣:9️⃣` wide, `↕️ 9️⃣:1️⃣6️⃣` tall, `🟩 1️⃣:1️⃣` square. The ratio is what tells options apart; keycaps follow §2-4 |
+| scheduled | ⏲️ | `Scheduled Date → ⏲️📅` |
 | recovery mode | ⛑️ | rescue helmet. ⚠️ no precedent found, my own guess. Write it with the variation selector (`⛑️`, not `⛑`) |
 
 ### Actions and states
@@ -391,9 +393,11 @@ Error while sideloading file %s to the server
 
 | Source | Existing | Problem | Status |
 |---|---|---|---|
-| Tall - 9:16 | 🚹 | unrelated to aspect ratio | open |
-| Wide - 16:9 | 🌐 | same, and it occupies 🌐 which is wanted for URL | open |
-| Scheduled | ⏲️ / 📅☑️ | two different translations for one term | open |
+| Tall - 9:16 | 🚹 | unrelated to aspect ratio | fixed: `↕️ 9️⃣:1️⃣6️⃣` |
+| Wide - 16:9 | 🌐 | same, and it occupies 🌐 which is wanted for URL | fixed: `↔️ 1️⃣6️⃣:9️⃣` |
+| other aspect ratio names | 📏, 🏛️, 🖼️, 🖼️🎨👤, 🟩 | no ratio shown, so the options can't be told apart | fixed: shape + keycap ratio, see §3 |
+| Scheduled | ⏲️ / 📅☑️ / 🗓 | three different translations for one term | fixed: unified on ⏲️ |
+| Settings, blog and 7 more (9 strings) | ⚙️⚙️, ✍️✍️👥💛, … | doubling style (§2-9, §6) | fixed |
 | Monday | ☀️1️⃣ | the rest of the week was still in English | fixed, see §3 |
 | months | mixed spacing, `7️⃣📆` reversed, `🔟` for October | inconsistent within itself | fixed, see §3 |
 | `on` / `off` config literals | 🟢🟢 / 🔴🔴 | emoji in values WordPress compares as text | fixed |
@@ -401,7 +405,7 @@ Error while sideloading file %s to the server
 | various | 🙅🏻, 👋🏻, 👎🏻 | skin tone modifiers | fixed |
 | Tag Cloud, Label | 🏷️ | variation selector on 🏷 | fixed |
 
-The open ones are worth doing before adding new strings.
+All known defects are now fixed. New ones go here as they turn up.
 
 ---
 
