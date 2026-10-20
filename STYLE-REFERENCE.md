@@ -71,7 +71,7 @@ Worth being aware of, since these need disambiguation by context.
 | 🎯 | here (adv) / result (noun) |
 | 📧 | email / mail |
 | ⌨️ | key (keyboard context) / keyboard |
-| ✅ | enter (form submission), and in §3 also select/selected |
+| ✅ | enter (form submission) / done, complete (§3). select/selected uses ☑️ instead |
 
 ---
 
@@ -105,7 +105,7 @@ Inferred from the `art-xemoji` translation of Captain Feed for YouTube.
 | **Version numbers, identifiers** | **plain digits** | `🐘📜 5.6` · `v1.0.1` · `782px` |
 
 ### 2-5. Negation: `🚫` prefix
-`🚫📝` no coding needed · `🚫👥` no user data · `🚫✅📝🏷` no post type selected
+`🚫📝` no coding needed · `🚫👥` no user data · `🚫☑️📝🏷` no post type selected
 
 ### 2-6. Questions: `❓` at the front
 English interrogatives (How / Where / What / Does) all collapse to `❓`, placed first.
@@ -197,14 +197,14 @@ Rationale noted. All open to correction.
 ### Actions and states
 | Term | Emoji | Note |
 |---|---|---|
-| select / selected | ✅ | collides with `enter` in the glossary. **Not** extended to active/enable, which would have made it a third meaning |
+| select / selected | ☑️ | a ticked checkbox, which is literally what selecting is. ✅ is reserved for done/enter |
 | manual | ✋ | |
 | automatic | 🤖 | |
 | install | 📥 | |
 | activate / enable / active / On | 🟢 | verb and state are not distinguished, in line with §2-1. Continues the intent of core's earlier `on → 🟢🟢` |
 | deactivate / disable / inactive / Off / disabled | 🔴 | paired with 🟢, so the opposition is self-evident |
 | activate a plugin | ⚡🔌 | kept as a compound; ⚡ is not used for `activate` on its own |
-| done / complete | ✔️ | core already used this. Kept distinct from 🟢: ✔️ is "finished", 🟢 is "switched on". Core had `Activate %s → ✔ %s`, which was changed to `🟢 %s` for consistency |
+| done / complete | ✅ | shares ✅ with `enter` in the official glossary, which is close enough in meaning to live with. Kept distinct from 🟢: ✅ is "finished", 🟢 is "switched on" |
 | click | 🖱️👆 | from Captain Feed |
 | use | 🔧 | |
 | override / update / change | 🔄 | |
@@ -283,6 +283,15 @@ makes a list of months scannable.
 
 ⛄ rather than ❄️ and 🌻 rather than ☀️: ☀️ is Sunday now, and both ❄️ and ☀️ are wanted for
 weather and light/dark strings. ⛄ and 🌻 have few other uses, so reserving them costs less.
+
+Where these four come from: the macOS Japanese input method offers them as conversion
+candidates for the season words. はる (spring) suggests ☘️, なつ (summer) 🌻, あき (autumn) 🍂,
+ふゆ (winter) ⛄. Not universal (Google Japanese Input doesn't do this), but it means the
+association already exists somewhere rather than being four emoji we picked ourselves.
+
+Fitting, given emoji were designed in Japan to begin with. ☘️ also happens to work outside
+that context: it's a March symbol in Ireland and the US through St Patrick's Day, landing
+on roughly the same part of the year.
 
 ### AM / PM → 🌅 / 🌇
 
