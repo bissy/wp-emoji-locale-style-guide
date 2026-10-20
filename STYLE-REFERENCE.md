@@ -193,7 +193,9 @@ Rationale noted. All open to correction.
 | editor | ✏️ | same as edit |
 | repository | 📦🏬 | |
 | developer | 👨‍💻 | ZWJ sequence; may split on some platforms |
-| aspect ratio | shape + keycap ratio | `↔️ 1️⃣6️⃣:9️⃣` wide, `↕️ 9️⃣:1️⃣6️⃣` tall, `🟩 1️⃣:1️⃣` square. The ratio is what tells options apart; keycaps follow §2-4 |
+| aspect ratio (a specific ratio) | shape + keycap ratio | `↔️ 1️⃣6️⃣:9️⃣` wide, `↕️ 9️⃣:1️⃣6️⃣` tall, `🟩 1️⃣:1️⃣` square. The ratio is what tells options apart; keycaps follow §2-4 |
+| aspect ratio (the setting name) | 📐 | the label of the control, not a ratio itself. ⚠️ no precedent found, my own guess |
+| news | 📰 | e.g. a "News" menu item. Not 🆕, which is the adjective new |
 | scheduled | ⏲️ | `Scheduled Date → ⏲️📅` |
 | recovery mode | ⛑️ | rescue helmet. ⚠️ no precedent found, my own guess. Write it with the variation selector (`⛑️`, not `⛑`) |
 
@@ -204,7 +206,7 @@ Rationale noted. All open to correction.
 | manual | ✋ | |
 | automatic | 🤖 | |
 | install | 📥 | |
-| activate / enable / active / On | 🟢 | verb and state are not distinguished, in line with §2-1. Continues the intent of core's earlier `on → 🟢🟢` |
+| activate / enable / active / On | 🟢 | verb and state are not distinguished, in line with §2-1. Continues the intent of core's earlier `on → 🟢🟢`. Also covers open/closed as a state (`Comments are open → 🟢`); 🔓 is avoided because 🔒 is taken by constant |
 | deactivate / disable / inactive / Off / disabled | 🔴 | paired with 🟢, so the opposition is self-evident |
 | activate a plugin | ⚡🔌 | kept as a compound; ⚡ is not used for `activate` on its own |
 | done / complete | ✅ | shares ✅ with `enter` in the official glossary, which is close enough in meaning to live with. Kept distinct from 🟢: ✅ is "finished", 🟢 is "switched on" |
@@ -233,7 +235,7 @@ Rationale noted. All open to correction.
 | issue / ticket | 🎫 | |
 | pull request | 🔀🙏 | merge + request |
 | support (help) | 🆘 | |
-| support (compatibility) | 👍 | |
+| support (compatibility) | 👍 | also `Supports`, the features a post type supports |
 | contribute | 🤝 | |
 | documentation | 📖 | from your `📖⚙️` |
 | fatal error | ‼️⛔️ | `‼️` intensifies the glossary's ⛔️ (error), since a fatal error is the severe case. ⚠️ no precedent found, my own guess |
@@ -411,7 +413,7 @@ All known defects are now fixed. New ones go here as they turn up.
 
 ## 7. Suggested approach for core
 
-Core is at **8%** as of 2026-09-15, up from 3.2%.
+Core is at **10%** (832 strings) as of 2026-10-20, up from 8% on 2026-09-15 and 3.2% before that.
 The batches completed so far are all in the mechanical, low-risk categories:
 
 | Batch | Category | Count |
@@ -424,6 +426,10 @@ The batches completed so far are all in the mechanical, low-risk categories:
 | 6 | Active/inactive states unified on 🟢 / 🔴 | 11 |
 | 7 | Weekdays, all three forms | 21 |
 | 8 | Months, all three forms | 36 |
+| 9 | Fixes to approved strings: plural doubling and the older style (§2-9, §6) | 9 |
+| 10 | Fixes to approved strings: aspect ratio names and Scheduled (§6) | 14 |
+| 11 | UI labels that map one-to-one onto a glossary term | 135 |
+| 12 | Previously held terms: news, supports, manual, comments open, aspect ratio | 6 |
 
 A separate pass over the 302 pending suggestions fixed 11 of them in place (glossary
 mismatches, variation selectors, plural doubling, skin tone modifiers) rather than
@@ -478,3 +484,4 @@ guessed. Corrections very welcome.
 | 7 | Are plugin names emoji-fied, or left in Latin? I followed `👨‍✈️📡📺` and did `🍠🌍🔗` | emoji-fied |
 | 9 | **How should languages without a state be handled?** Galician, Tagalog and Yiddish have no usable flag (see §3). Options: leave untranslated, allow a flag to be shared, or use a non-flag emoji | left untranslated |
 | 8 | Should we fix the defects in §6 before adding new strings, or leave them? | proposed: tier 1 and 2 defects first, tier 3 later (see §7, Review priority) |
+| 10 | **How should user roles look?** Currently mixed: Administrator in English, Editor `👤✍`, Author `😌✍`, Contributor and Subscriber untranslated. Options: person + role (`👤🛠️` `👤✏️` `👤✍️` `👤🤝` `👤👀`), single emoji (`👑` `✏️` `✍️` `🤝` `👀`), or extend the existing faces | poll in #polyglots-emoji; my pick is person + role |
