@@ -193,6 +193,7 @@ Rationale noted. All open to correction.
 | editor | ✏️ | same as edit |
 | repository | 📦🏬 | |
 | developer | 👨‍💻 | ZWJ sequence; may split on some platforms |
+| recovery mode | ⛑️ | rescue helmet. ⚠️ no precedent found, my own guess. Write it with the variation selector (`⛑️`, not `⛑`) |
 
 ### Actions and states
 | Term | Emoji | Note |
@@ -233,6 +234,7 @@ Rationale noted. All open to correction.
 | support (compatibility) | 👍 | |
 | contribute | 🤝 | |
 | documentation | 📖 | from your `📖⚙️` |
+| fatal error | ‼️⛔️ | `‼️` intensifies the glossary's ⛔️ (error), since a fatal error is the severe case. ⚠️ no precedent found, my own guess |
 
 ### Proper nouns
 | Term | Emoji | Note |
