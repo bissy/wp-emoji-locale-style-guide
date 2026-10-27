@@ -198,6 +198,11 @@ Rationale noted. All open to correction.
 | aspect ratio (the setting name) | ↔️↕️ | the label of the control, not a ratio itself. Was 📐 until 2026-10-27, which now belongs to template |
 | news | 📰 | e.g. a "News" menu item. Not 🆕, which is the adjective new |
 | user roles | 👤 + role | `👤🛠️` Administrator, `👤✏️` Editor, `👤✍️` Author, `👤🤝` Contributor, `👤👀` Subscriber. 👤 marks a person's role, so Editor the role and the editor screen (✏️) don't collide. Decided by poll in #polyglots-emoji (3–0) |
+| list | 🧾 | items on a receipt. Was 📋 in the glossary until 2026-10-27; 📋 now belongs to paste/clipboard |
+| paste / clipboard | 📋 | the clipboard icon editors use for paste |
+| copy / duplicate | 👯 | making a twin; the two verbs are not distinguished (§2-1) |
+| show / hide | 👁️ / 🙈 | show is the same as view |
+| manage | ⚙️ | same as settings |
 | scheduled | ⏲️ | `Scheduled Date → ⏲️📅` |
 | recovery mode | ⛑️ | rescue helmet. ⚠️ no precedent found, my own guess. Write it with the variation selector (`⛑️`, not `⛑`) |
 
@@ -434,6 +439,7 @@ The batches completed so far are all in the mechanical, low-risk categories:
 | 12 | Previously held terms: news, supports, manual, comments open, aspect ratio | 6 |
 | 13 | User roles, after the poll | 5 |
 | 14 | Template: new 📐, template part and aspect ratio moved to match, plus template labels | 24 |
+| 15 | Copy, paste, list, show, hide, manage: list moved to 🧾, plus labels | 34 |
 
 A separate pass over the 302 pending suggestions fixed 11 of them in place (glossary
 mismatches, variation selectors, plural doubling, skin tone modifiers) rather than
