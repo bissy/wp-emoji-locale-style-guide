@@ -187,14 +187,15 @@ Rationale noted. All open to correction.
 | widget | 🧩 | |
 | block / Gutenberg | 🧩 | from Captain Feed. Collides with widget, so context-dependent |
 | archive | 🗄️ | |
-| template part | 📄🧩 | 📄 (document) + 🧩 (part). 🧩 doubles as block, but 📄 disambiguates |
+| template | 📐 | set square: the mold a page is drawn from. Sits beside 📄 page and 📝 post. Page template `📄📐`, post template `📝📐` |
+| template part | 📐🧩 | template + part. Was 📄🧩 until 2026-10-27, changed when template got its own emoji |
 | future | 🔮 | the pending queue independently reached the same emoji |
 | free / editable | 🆓 | `✏️🆓` for "fully editable" |
 | editor | ✏️ | same as edit |
 | repository | 📦🏬 | |
 | developer | 👨‍💻 | ZWJ sequence; may split on some platforms |
 | aspect ratio (a specific ratio) | shape + keycap ratio | `↔️ 1️⃣6️⃣:9️⃣` wide, `↕️ 9️⃣:1️⃣6️⃣` tall, `🟩 1️⃣:1️⃣` square. The ratio is what tells options apart; keycaps follow §2-4 |
-| aspect ratio (the setting name) | 📐 | the label of the control, not a ratio itself. ⚠️ no precedent found, my own guess |
+| aspect ratio (the setting name) | ↔️↕️ | the label of the control, not a ratio itself. Was 📐 until 2026-10-27, which now belongs to template |
 | news | 📰 | e.g. a "News" menu item. Not 🆕, which is the adjective new |
 | user roles | 👤 + role | `👤🛠️` Administrator, `👤✏️` Editor, `👤✍️` Author, `👤🤝` Contributor, `👤👀` Subscriber. 👤 marks a person's role, so Editor the role and the editor screen (✏️) don't collide. Decided by poll in #polyglots-emoji (3–0) |
 | scheduled | ⏲️ | `Scheduled Date → ⏲️📅` |
@@ -432,6 +433,7 @@ The batches completed so far are all in the mechanical, low-risk categories:
 | 11 | UI labels that map one-to-one onto a glossary term | 135 |
 | 12 | Previously held terms: news, supports, manual, comments open, aspect ratio | 6 |
 | 13 | User roles, after the poll | 5 |
+| 14 | Template: new 📐, template part and aspect ratio moved to match, plus template labels | 24 |
 
 A separate pass over the 302 pending suggestions fixed 11 of them in place (glossary
 mismatches, variation selectors, plural doubling, skin tone modifiers) rather than
