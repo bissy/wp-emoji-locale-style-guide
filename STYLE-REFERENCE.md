@@ -206,6 +206,7 @@ Rationale noted. All open to correction.
 | all | *️⃣ | the `*` wildcard. Always write it with the variation selector (`*️⃣`), which renders as a keycap; plain `*` stays the required-field marker. Decided by poll in #polyglots-emoji (5 votes) |
 | except / exclude | ➖ | pairs with all: `*️⃣ ➖ 📝` everything but posts. ⚠️ no precedent yet |
 | × (multiplication, dimensions) | ✖️ | kept apart from all (*️⃣) and close (❌) |
+| must / required | ❗ | `✅❗` must be, `❗🔌` required plugin. Not a warning or emphasis; warnings use ⚠️. Found as the dominant existing use in core (2026-11-10) |
 | scheduled | ⏲️ | `Scheduled Date → ⏲️📅` |
 | recovery mode | ⛑️ | rescue helmet. ⚠️ no precedent found, my own guess. Write it with the variation selector (`⛑️`, not `⛑`) |
 
@@ -444,6 +445,7 @@ The batches completed so far are all in the mechanical, low-risk categories:
 | 14 | Template: new 📐, template part and aspect ratio moved to match, plus template labels | 24 |
 | 15 | Copy, paste, list, show, hide, manage: list moved to 🧾, plus labels | 34 |
 | 16 | All, after the poll | 19 |
+| 17 | Short sentences containing all | 24 |
 
 A separate pass over the 302 pending suggestions fixed 11 of them in place (glossary
 mismatches, variation selectors, plural doubling, skin tone modifiers) rather than
@@ -489,7 +491,7 @@ guessed. Corrections very welcome.
 
 | # | Question | My current guess |
 |---|---|---|
-| 1 | **What does trailing `❗` mean?** I saw `❓🔌 🧩❗` (Does plugin work with blocks?) but couldn't work out whether it marks "can/does", or is just emphasis | not used |
+| 1 | **What does trailing `❗` mean?** I saw `❓🔌 🧩❗` (Does plugin work with blocks?) but couldn't work out whether it marks "can/does", or is just emphasis | resolved: ❗ = must / required, see §3 |
 | 2 | Is `⏰` acceptable for "when" / "if"? | using it |
 | 3 | Is `〰️` acceptable for "and so on / etc."? | using it |
 | 4 | Is `🏭` acceptable for "generate"? | using it |
