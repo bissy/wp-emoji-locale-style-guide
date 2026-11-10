@@ -208,6 +208,11 @@ Rationale noted. All open to correction.
 | × (multiplication, dimensions) | ✖️ | kept apart from all (*️⃣) and close (❌) |
 | must / required | ❗ | `✅❗` must be, `❗🔌` required plugin. Not a warning or emphasis; warnings use ⚠️. Found as the dominant existing use in core (2026-11-10) |
 | permission | 🔑 | the key that lets you in. `🚫🔑` no permission, `❗🔑` permission needed. Distinct from 🔐 password and 🔒 constant |
+| pattern | 📦🧩 | a packaged set of blocks. `📦🧩🗂️` pattern category |
+| heading | 🔠 | |
+| location | 📍 | `🍔📍` menu location |
+| feed | 📡 | `💬📡` comments feed |
+| featured | ⭐ | `⭐🖼️` featured image |
 | scheduled | ⏲️ | `Scheduled Date → ⏲️📅` |
 | recovery mode | ⛑️ | rescue helmet. ⚠️ no precedent found, my own guess. Write it with the variation selector (`⛑️`, not `⛑`) |
 
@@ -448,6 +453,7 @@ The batches completed so far are all in the mechanical, low-risk categories:
 | 16 | All, after the poll | 19 |
 | 17 | Short sentences containing all | 24 |
 | 18 | Permission: new 🔑, plus short permission messages (2 English copies fixed) | 10 |
+| 19 | Compound labels using the terms decided today (pattern, featured, archives, next/previous…) | 166 |
 
 A separate pass over the 302 pending suggestions fixed 11 of them in place (glossary
 mismatches, variation selectors, plural doubling, skin tone modifiers) rather than
