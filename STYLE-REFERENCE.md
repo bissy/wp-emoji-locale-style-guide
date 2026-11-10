@@ -207,6 +207,7 @@ Rationale noted. All open to correction.
 | except / exclude | ➖ | pairs with all: `*️⃣ ➖ 📝` everything but posts. ⚠️ no precedent yet |
 | × (multiplication, dimensions) | ✖️ | kept apart from all (*️⃣) and close (❌) |
 | must / required | ❗ | `✅❗` must be, `❗🔌` required plugin. Not a warning or emphasis; warnings use ⚠️. Found as the dominant existing use in core (2026-11-10) |
+| permission | 🔑 | the key that lets you in. `🚫🔑` no permission, `❗🔑` permission needed. Distinct from 🔐 password and 🔒 constant |
 | scheduled | ⏲️ | `Scheduled Date → ⏲️📅` |
 | recovery mode | ⛑️ | rescue helmet. ⚠️ no precedent found, my own guess. Write it with the variation selector (`⛑️`, not `⛑`) |
 
@@ -446,6 +447,7 @@ The batches completed so far are all in the mechanical, low-risk categories:
 | 15 | Copy, paste, list, show, hide, manage: list moved to 🧾, plus labels | 34 |
 | 16 | All, after the poll | 19 |
 | 17 | Short sentences containing all | 24 |
+| 18 | Permission: new 🔑, plus short permission messages (2 English copies fixed) | 10 |
 
 A separate pass over the 302 pending suggestions fixed 11 of them in place (glossary
 mismatches, variation selectors, plural doubling, skin tone modifiers) rather than
