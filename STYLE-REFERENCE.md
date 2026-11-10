@@ -213,6 +213,8 @@ Rationale noted. All open to correction.
 | location | 📍 | `🍔📍` menu location |
 | feed | 📡 | `💬📡` comments feed |
 | featured | ⭐ | `⭐🖼️` featured image |
+| new tab | ↗️ | the external-link arrow. `(↗️)` opens in a new tab, `📂🔗↗️` open link in a new tab |
+| distraction free | 🧘 | `🟢🧘` / `🔴🧘` enter / exit |
 | scheduled | ⏲️ | `Scheduled Date → ⏲️📅` |
 | recovery mode | ⛑️ | rescue helmet. ⚠️ no precedent found, my own guess. Write it with the variation selector (`⛑️`, not `⛑`) |
 
@@ -454,6 +456,8 @@ The batches completed so far are all in the mechanical, low-risk categories:
 | 17 | Short sentences containing all | 24 |
 | 18 | Permission: new 🔑, plus short permission messages (2 English copies fixed) | 10 |
 | 19 | Compound labels using the terms decided today (pattern, featured, archives, next/previous…) | 166 |
+| 20 | Distraction free, classic, get involved | 11 |
+| 21 | Open: comments open 🟢, open 📂, new tab ↗️ | 22 |
 
 A separate pass over the 302 pending suggestions fixed 11 of them in place (glossary
 mismatches, variation selectors, plural doubling, skin tone modifiers) rather than
