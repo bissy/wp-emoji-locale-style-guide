@@ -221,6 +221,13 @@ Rationale noted. All open to correction.
 | overlay | 🪟 | a window laid over the page. `🧭🪟` navigation overlay |
 | attachment | 📎 | `📎📄` attachment page |
 | parent | ⬆️ | `⬆️📄` parent page |
+| name | 📛 | name badge. Kept apart from tag 🏷 |
+| custom | 🎛️ | control knobs. ⚙️ is settings and 🔧 is use, so custom needed its own |
+| default | 🔰 | the Japanese beginner mark, read here as "initial state". Like the season emoji (§3, months), it borrows from Japanese emoji culture |
+| type | 🧬 | kind, genus. `📝🧬` post type |
+| change | 🔁 | same as replace |
+| playlist | 🎶🧾 | media + list. `🔊🎶🧾` audio playlist |
+| selected / uploaded / added / display | ☑️ / 📤 / ➕ / 👁️ | forms of select, upload, add, view |
 | "No X found." | 🚫X 🔎 | `🚫📝 🔎` no posts found; `… 🗑️` adds "in Trash" |
 | "X updated / deleted / saved." | X 🔄✅ / 🗑️✅ / 💾✅ | `📝 🔄✅` post updated |
 | scheduled | ⏲️ | `Scheduled Date → ⏲️📅` |
@@ -459,6 +466,7 @@ The batches completed so far are all in the mechanical, low-risk categories:
 | 12 | Previously held terms: news, supports, manual, comments open, aspect ratio | 6 |
 | 13 | User roles, after the poll | 5 |
 | 14 | Template: new 📐, template part and aspect ratio moved to match, plus template labels | 24 |
+| 25 | Name, custom, default, type, change, playlist, plus verb forms | 107 |
 | 15 | Copy, paste, list, show, hide, manage: list moved to 🧾, plus labels | 34 |
 | 16 | All, after the poll | 19 |
 | 17 | Short sentences containing all | 24 |
