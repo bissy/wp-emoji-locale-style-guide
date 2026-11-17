@@ -216,6 +216,13 @@ Rationale noted. All open to correction.
 | new tab | ↗️ | the external-link arrow. `(↗️)` opens in a new tab, `📂🔗↗️` open link in a new tab |
 | distraction free | 🧘 | `🟢🧘` / `🔴🧘` enter / exit |
 | navigation | 🧭 | `🧭🍔` navigation menu, `📝🧾🧭` posts list navigation. Poll got no votes; went with 🧭 by lazy consensus (2026-11-17) |
+| item | 🔹 | the bullet point. `🧾🔹` list item, `🍔🔹` menu item. ▪️ was avoided because it disappears in dark mode |
+| draft | 📝💭 | a post still being thought through; keeps it apart from post 📝 |
+| overlay | 🪟 | a window laid over the page. `🧭🪟` navigation overlay |
+| attachment | 📎 | `📎📄` attachment page |
+| parent | ⬆️ | `⬆️📄` parent page |
+| "No X found." | 🚫X 🔎 | `🚫📝 🔎` no posts found; `… 🗑️` adds "in Trash" |
+| "X updated / deleted / saved." | X 🔄✅ / 🗑️✅ / 💾✅ | `📝 🔄✅` post updated |
 | scheduled | ⏲️ | `Scheduled Date → ⏲️📅` |
 | recovery mode | ⛑️ | rescue helmet. ⚠️ no precedent found, my own guess. Write it with the variation selector (`⛑️`, not `⛑`) |
 
@@ -460,6 +467,8 @@ The batches completed so far are all in the mechanical, low-risk categories:
 | 20 | Distraction free, classic, get involved | 11 |
 | 21 | Open: comments open 🟢, open 📂, new tab ↗️ | 22 |
 | 22 | Navigation | 55 |
+| 23 | Item, draft, overlay | 41 |
+| 24 | Sweep with all terms so far, plus "No X found." / "X updated." patterns | 118 |
 
 A separate pass over the 302 pending suggestions fixed 11 of them in place (glossary
 mismatches, variation selectors, plural doubling, skin tone modifiers) rather than
