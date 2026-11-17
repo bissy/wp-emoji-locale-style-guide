@@ -227,6 +227,14 @@ Rationale noted. All open to correction.
 | type | 🧬 | kind, genus. `📝🧬` post type |
 | change | 🔁 | same as replace |
 | playlist | 🎶🧾 | media + list. `🔊🎶🧾` audio playlist |
+| invalid | 🚫✅ | not valid; no new emoji needed |
+| description / details | ℹ️ | `🖼️ℹ️` image details |
+| header | 🔝 | top of the page |
+| HTML | HTML | technical term kept as text, like CSS (`🎛️HTML` custom HTML) |
+| table | 📊 | |
+| gallery | 🖼️🧾 | images + list; 🖼️🖼️ would break §2-9 |
+| format | 🎭 | a post wearing a different costume. 📐 was rejected: post format would collide with post template `📝📐` |
+| ID | 🆔 | `🚫✅ 📝🆔` invalid post ID |
 | selected / uploaded / added / display | ☑️ / 📤 / ➕ / 👁️ | forms of select, upload, add, view |
 | "No X found." | 🚫X 🔎 | `🚫📝 🔎` no posts found; `… 🗑️` adds "in Trash" |
 | "X updated / deleted / saved." | X 🔄✅ / 🗑️✅ / 💾✅ | `📝 🔄✅` post updated |
@@ -467,6 +475,8 @@ The batches completed so far are all in the mechanical, low-risk categories:
 | 13 | User roles, after the poll | 5 |
 | 14 | Template: new 📐, template part and aspect ratio moved to match, plus template labels | 24 |
 | 25 | Name, custom, default, type, change, playlist, plus verb forms | 107 |
+| 26 | Invalid, description, header, HTML, table, gallery, format | 80 |
+| 27 | ID | 19 |
 | 15 | Copy, paste, list, show, hide, manage: list moved to 🧾, plus labels | 34 |
 | 16 | All, after the poll | 19 |
 | 17 | Short sentences containing all | 24 |
