@@ -235,6 +235,13 @@ Rationale noted. All open to correction.
 | gallery | 🖼️🧾 | images + list; 🖼️🖼️ would break §2-9 |
 | format | 🎭 | a post wearing a different costume. 📐 was rejected: post format would collide with post template `📝📐` |
 | ID | 🆔 | `🚫✅ 📝🆔` invalid post ID |
+| RSS | RSS | kept as text, like HTML |
+| results | 🎯 | same as result |
+| avatar | 👤🖼️ | user + image |
+| button | 🔘 | |
+| excerpt | ✂️🗒️ | content cut short |
+| caption | 🖼️🔤 | text on an image |
+| background | 🌄 | |
 | selected / uploaded / added / display | ☑️ / 📤 / ➕ / 👁️ | forms of select, upload, add, view |
 | "No X found." | 🚫X 🔎 | `🚫📝 🔎` no posts found; `… 🗑️` adds "in Trash" |
 | "X updated / deleted / saved." | X 🔄✅ / 🗑️✅ / 💾✅ | `📝 🔄✅` post updated |
@@ -477,6 +484,7 @@ The batches completed so far are all in the mechanical, low-risk categories:
 | 25 | Name, custom, default, type, change, playlist, plus verb forms | 107 |
 | 26 | Invalid, description, header, HTML, table, gallery, format | 80 |
 | 27 | ID | 19 |
+| 28 | RSS, results, avatar, button, excerpt, caption, background | 42 |
 | 15 | Copy, paste, list, show, hide, manage: list moved to 🧾, plus labels | 34 |
 | 16 | All, after the poll | 19 |
 | 17 | Short sentences containing all | 24 |
