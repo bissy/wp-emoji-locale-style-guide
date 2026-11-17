@@ -9,6 +9,19 @@ official glossary and existing translations.
 
 ---
 
+## Goals
+
+1. **Everything in emoji.** No "decorated" translations that keep the English and add emoji.
+   The only text left as-is is in §2-10 and universal technical terms (HTML, CSS, RSS).
+2. **Readable without English.** A reader who doesn't know English should understand the UI.
+
+Together these rule out both halves of the old "decorate vs full emoji" question:
+decorating keeps English, and leaving a string untranslated makes WordPress fall back to
+English. So every string should eventually be emoji, and the work is making it readable
+(see §2-11). Decided 2026-11-17.
+
+---
+
 ## 0. Source of authority
 
 When two sources conflict, prefer the higher one.
@@ -165,6 +178,17 @@ feature that the locale's own configuration says it doesn't have.
   concatenates the next element
 
 ---
+
+### 2-11. Long strings
+
+For sentences, aim for readability over completeness:
+
+- **Split into short sentences**, about five emoji each, separated by `.` (§2-7)
+- **Drop the courtesy words**: Please, Sorry, Note that, Are you sure are not translated
+  (a leading `❓` already carries "are you sure")
+- **Only use terms that are already decided** (§1, §3). If a sentence needs a new term,
+  decide the term first, then translate
+- **Use the patterns**: `🚫X 🔎` no X found, `X 🔄✅` X updated, `🚫🔑 X` no permission to X
 
 ## 3. Additions beyond the glossary
 
@@ -509,7 +533,7 @@ Remaining breakdown:
 | 🥈 | 1–3 word UI labels | ~3,745 | where emoji works best |
 | 🥉 | 4–8 word phrases | ~1,668 | possible, needs care |
 | ⚠️ | Contains `%s` / HTML | ~1,313 | placeholder integrity is critical |
-| ❌ | **9+ words** | ~1,583 | **suggest leaving alone**, since every unreadable example in §6 is from here |
+| 🏅 | **9+ words** | ~1,583 | translate the ones that read well under §2-11. Untranslated means English, which breaks the Goals |
 
 ### Review priority
 
